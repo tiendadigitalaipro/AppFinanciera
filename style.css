@@ -40,11 +40,19 @@ button[type="submit"]:hover {
     background-color: #3e8e41;
 }
 
-lista {
-    width: 50%;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.lista li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.balance {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
